@@ -1,0 +1,8 @@
+[X] project set up
+[x] set up server.js file, install express, .gitignore file, nodemon, body-parser.
+[x] server folder, html set up, style.css, jquery file, client.js
+[x] sourcing jquery and style file
+[x] 2 input element
+[x] +,-,*,/ buttons
+[x] clear button 'c'
+[] submit button

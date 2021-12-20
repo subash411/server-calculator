@@ -5,4 +5,14 @@
 [x] 2 input element
 [x] +,-,*,/ buttons
 [x] clear button 'c'
-[] submit button
+[x] submit button
+
+My server was not hosting so was trying to delete server file and re do it again
+then I ended up deleting my entire code, so re-starting it again.
+
+keep getting -- at Function.listen (/Users/subashkhatri/Documents/server-calculator/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/Users/subashkhatri/Documents/server-calculator/server/server.js:8:5)--
+    on my server.
+
+    after dealing wiith it almost entire day, come to find out 5000 would not work for my computer
+    so I used 5001.

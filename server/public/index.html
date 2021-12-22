@@ -12,22 +12,33 @@
         <link rel="stylesheet" href="styles/style.css">
     </head>
     <body>
-        
+        <header>
         <h1>
             Server side Calculator
             </h1>
-
-            <form id="inputForm">
-                <input type="number" id="firstNumber" class="form-control" />
-                <button id="plusBtn">+</button>
-                <button id="minusBtn">-</button>
-                <button id="divideBtn">/</button>
-                <button id="multiplybtn">*</button>
-                <input type="number" id="secondNumber" class="form-control" />
-                <button id="equalBtn">=</button>
-                <button id="clrBtn">C</button>
-            </form>
-
+            </header>
+            <form id="calcsForm">
+                <input
+                  type="number"
+                  placeholder="first number"
+                  id="firstInput"
+                />
+                <button type="button" id="add">+</button>
+                <button type="button" id="substact">-</button>
+                <button type="button" id="multiply">*</button>
+                <button type="button" id="divide">/</button>
+                <input
+                  type="number"
+                  placeholder="second number"
+                  id="secondInput"
+                />
+                <input type="submit" value="=" />
+                <button type="button" onclick="ClearFields();">C</button>
+              </form>
+          
+              <h2 id="Result"></h2>
+        
             <h2>Your Answer :</h2>
+            <ul id="answers"></ul>
     </body>
 </html>

@@ -5,7 +5,6 @@
 [x] 2 input element
 [x] +,-,*,/ buttons
 [x] clear button 'c'
-[x] submit button
 
 My server was not hosting so was trying to delete server file and re do it again
 then I ended up deleting my entire code, so re-starting it again.
@@ -16,3 +15,11 @@ keep getting -- at Function.listen (/Users/subashkhatri/Documents/server-calcula
 
     after dealing wiith it almost entire day, come to find out 5000 would not work for my computer
     so I used 5001.
+[x] fixed the port problem, had to go to preference and uncheck the airplay button under sharing folder.
+
+    would display first and second number but does not show the total, it shows undefined.
+
+    can not figure out why it would not add, subtract, multiply or divide and shows total.
+
+[x] operator = $(this).text();
+        console.log(operator); this code helped to do the calculation.
